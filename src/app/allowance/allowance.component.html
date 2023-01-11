@@ -1,0 +1,21 @@
+<p>allowance works!</p>
+<p>{{allowance_receive| json}}</p>
+
+<form>
+    <div class="main">
+      <div class="allowance">
+        <h1>Allowance:-</h1>
+        <div formArrayName="allowance" cdkDropList class="example-list">
+          <div class="example-box" cdkDrag>
+            <input type="text" formControlName="name" placeholder="Allowance" id="allowance name" />
+            <img src="" style=" width:17px; height:17px" alt="" >
+            <img src="./assets/close.png" style="width: 17px; height: 17px;"onclick="document.getElementById('myInput').value = ''" alt="">
+          </div>
+        </div>
+        <button class="addInput">Add </button>
+      </div>
+    </div>
+  </form>
+  
+  
+
